@@ -219,7 +219,7 @@ minetest.register_node("default:stone", {
 
 minetest.register_node("default:gator_block", {
 	description = "Gator Block",
-	tiles = {"default_diamond_block.png"},
+	tiles = {"default_stone.png"},
 })
 
 minetest.register_node("default:cobble", {
