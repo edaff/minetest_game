@@ -217,6 +217,11 @@ minetest.register_node("default:stone", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
+minetest.register_node("default:gator_block", {
+	description = "Gator Block",
+	tiles = {"default_diamond_block.png"},
+})
+
 minetest.register_node("default:cobble", {
 	description = "Cobblestone",
 	tiles = {"default_cobble.png"},
